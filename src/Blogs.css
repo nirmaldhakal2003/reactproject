@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(190, 190, 190);
+  }
+  .navbar{
+    display: flex;
+    background-color: rgb(138, 138, 138);
+  }
+  .navbar ul{
+   display: flex;
+   margin-left: 1000px;
+  }
+  .navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .nav-logo img{
+    width: 100px;
+  }
+ 
+
+   h1,h2,h3{
+    text-align: center;
+    color: rgb(139, 45, 45);
+   }
+
+   a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+   }
+  
+   a:hover{
+    color: black;
+   }
+   
+   .Blogs-image{
+    border: 1px solid rgb(138, 138, 138);
+    margin-top: 10px;
+    margin-left: 700px;
+    width: 500px;
+    background-color: rgb(155, 155, 155);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   }
+
+  .Blogs-image img{
+    margin-left: 50px;  
+    margin-top: 30px;
+  }

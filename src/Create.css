@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(190, 190, 190);
+  }
+  .navbar{
+    display: flex;
+    background-color: rgb(138, 138, 138);
+  }
+  .navbar ul{
+   display: flex;
+   margin-left: 1000px;
+  }
+  .navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 50px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .nav-logo img{
+    width: 100px;
+  }
+  .cards{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 130px;
+  }
+
+   h1{
+    text-align: center;
+    color: rgb(139, 45, 45);
+   }
+
+   a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+   }
+  
+   a:hover{
+    color: black;
+   }
+
+   .form{
+    width:30%;
+    border: 5px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-left: 650px;
+    color: rgb(0, 0, 1);
+    background-color: rgb(138, 138, 138);
+   }
+
+   .form label{
+    margin-left: 100px;
+    font-size: 20px;
+   }
+   .form lable,input{
+    margin-top: 30px;
+    margin-left: 10px;
+   }
+   
+   .form input{
+    width: 200px;
+   }
+
+   button{
+    color: rgb(4, 4, 5);
+    font-size: 25px;
+    margin-left: 200px;
+    margin-top: 30px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(12, 80, 229, 0.3);
+   }
+   button:hover{
+    color: red;
+    background-color: rgb(168, 208, 38);
+   
+   }
